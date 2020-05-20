@@ -10,7 +10,7 @@ for /f  "usebackq" %%a in  ("%temp%\Dir.txt") do (
     cd %%a
     dir *.7z /b /o:n >%temp%\File.txt
     for /f  "usebackq delims==;" %%b in  ("%temp%\File.txt") do (
-        echo %%b_%%a >>%temp%\Data.txt
+        echo %%b_%%a>>%temp%\Data.txt
     )
     cd ..
 )
