@@ -10,3 +10,6 @@
 3. 使用`Excel`打开`example.xlsx`的`Sheet1`工作表，将`Data.txt`内的全部内容覆盖粘贴（跳过首行），点击右下方的粘贴选项，选择使用文本导入工具，以`_`作为分隔符分割
 4. 使用替换工具将`.7z`替换为空
 5. 保存Excel文件并退出，运行`example.bat`即可获得`data.json`
+
+## 引用
+https://github.com/zdhsoft/excel2json
